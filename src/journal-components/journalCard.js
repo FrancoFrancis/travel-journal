@@ -5,9 +5,7 @@ export default function JournalCard(props) {
 
     return(
         <div  className="card">
-
             <div className="image--container">
-
                 <img className="image" src={props.item.imgUrl}/>
             </div>
             <div className="card--content">
